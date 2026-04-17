@@ -27,7 +27,7 @@ import (
 )
 
 const (
-	CreateParticipantURL                                       = "/v5alpha/participants"
+	CreateParticipantURL                                       = "/v5beta/participants"
 	applicationJSON                                            = "application/json"
 	ParticipantContextStateCreated     ParticipantContextState = "CREATED"
 	ParticipantContextStateActivated   ParticipantContextState = "ACTIVATED"
